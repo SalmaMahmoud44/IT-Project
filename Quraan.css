@@ -1,0 +1,54 @@
+body 
+{
+    color: white;
+    background-color: rgba(139, 59, 35, 0.651);
+    font-family: 'Aref Ruqaa', serif;
+    font-family: 'Lateef', serif;
+    font-size: 30px;
+}
+
+div button
+{
+    font-family: 'Aref Ruqaa', serif;
+    font-family: 'Lateef', serif;
+    font-size: 30px;
+    font-style: bold;
+    background-color: bisque;
+    padding: 8px;
+    width: 150px;
+    margin-top: 10px;
+    border: 2px solid bisque;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+div button:hover
+{
+    color: white;
+    background:hsl(40, 89%, 67%);
+    border: 2px solid hsl(40, 89%, 67%);
+}
+
+#d1, #d2, #d3, #d4
+{
+    width: 500px;
+    height: 300px;
+    color: hsl(40, 89%, 67%);
+    text-shadow: 1px 1px white;
+    display: none;
+}
+
+#ss
+{
+    width: 600px;
+    height: 300px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#mm
+{
+    margin:100px;
+}
